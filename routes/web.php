@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/contoh', function () {
     return view('welcome');
+});
+Route::get('/tentang-kami', function () {
+    return view('tentang_kami');
 });
